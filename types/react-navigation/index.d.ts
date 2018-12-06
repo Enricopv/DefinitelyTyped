@@ -457,6 +457,7 @@ export interface NavigationStackRouterConfig {
   initialRouteParams?: NavigationParams;
   paths?: NavigationPathsConfig;
   navigationOptions?: NavigationScreenConfig<NavigationScreenOptions>;
+  defaultNavigationOptions?: NavigationScreenConfig<NavigationScreenOptions>;
   initialRouteKey?: string;
 }
 
